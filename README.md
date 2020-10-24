@@ -2,12 +2,12 @@
 
 Keyless system emulator of Remote Control — Car system for cryptography studying.
 
-List of dependencies (all are currently part of The Python Standard Library):
+List of dependencies:
 
 * Ed25519PrivateKey from cryptography.hazmat.primitives.asymmetric.ed25519
 * X25519PrivateKey from cryptography.hazmat.primitives.asymmetric.x25519
 * Random from Cryptodome
-* AES from Cryptofome.Cipher
+* AES from Cryptodome.Cipher
 
 # Build
 
@@ -15,7 +15,7 @@ List of dependencies (all are currently part of The Python Standard Library):
 * Run `pip install pycryptodomex`to install Cryptodome
 * Run `pip install cryprography`to install Cryptography
 * Navigate the terminal to the directory where the script is located using the `$ cd` command.
-* Type `python kse.py` or `python kse.py` in the terminal to execute the script.
+* Type `python kse.py` or `python3 kse.py` in the terminal to execute the script.
 
 # How it works
 
